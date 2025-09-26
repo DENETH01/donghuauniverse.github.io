@@ -2,7 +2,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #04042c;
+  background: #0a012f;
   color: #eee;
   line-height: 1.6;
 }
@@ -13,7 +13,7 @@ body {
   top: 0; left: 0;
   width: 100%;
   height: 60px;
-  background: rgba(20, 20, 30, 0.9);
+  background: rgba(1, 2, 34, 0.9);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,10 +31,10 @@ body {
 }
 .nav-links a {
   margin-left: 1.5rem;
-  color: #62a6e1;
+  color: #030f1a;
   text-decoration: none;
 }
-.nav-links a:hover { color: #e20c0c; }
+.nav-links a:hover { color: #ff0000; }
 
 /* ===== Spotlight / Hero ===== */
 .spotlight {
@@ -55,18 +55,18 @@ body {
 }
 .spotlight-content {
   max-width: 600px;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 .spotlight-content h5 {
   color: #4da9ff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
 }
 .spotlight-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 .info span {
-  margin-right: 1rem;
+  margin-right: 2rem;
   font-size: 0.9rem;
   opacity: 0.8;
 }
@@ -81,7 +81,7 @@ body {
   display: inline-block;
   padding: 10px 18px;
   border-radius: 25px;
-  margin-right: 10px;
+  margin-right: 15px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
@@ -110,7 +110,7 @@ body {
   gap: 1.5rem;
 }
 .card {
-  background: #1a1a2e;
+  background: #010122;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -122,3 +122,7 @@ body {
 }
 .card p { padding: 0.5rem; }
 .card:hover { transform: scale(1.05); }
+
+a {
+  color: red;   /* changes the text color */
+}
